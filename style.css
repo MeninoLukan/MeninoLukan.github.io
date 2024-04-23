@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --grayish-blue: #c5c6ce;
+    --white-smoke: #F2F2F2;
+    --coral: #F29441;
+    --sandy-brown: #F2A341;
+    --black-midnight: #030F26;
+    --midnight-blue: #031740;
+}
+
+body {
+    background-color: var(--white-smoke);
+    padding: 1.8rem 12rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.header button {
+    border: none;
+    background: none;
+}
+
+.primeira-secao {
+    margin-bottom: 4rem;
+}
+
+.primeira-secao img {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.primeira-secao h1 {
+    font-size: 2.5rem;
+    line-height: 100%;
+    color: var(--black-midnight);
+    margin-bottom: 1rem;
+}
+
+.primeira-secao p {
+    font-size: 0.9375rem;
+    line-height: 1.626rem;
+    color: var(--midnight-blue);
+    margin-bottom: 1.5rem;
+}
+
+.primeira-secao button {
+    border: none;
+    padding: 0.75rem 2rem;
+    text-transform: uppercase;
+    background-color: var(--coral);
+    color: var(--white-smoke);
+    font-weight: 700;
+    font-size: 0.875rem;
+    letter-spacing: 0.270rem;
+    line-height: 1.5rem;
+    transition: background .1s;
+}
+
+.primeira-secao button:hover {
+    background-color: #e28534;
+}
+
+.segunda-secao {
+    background-color: var(--black-midnight);
+    margin-bottom: 4rem;
+    padding: 1.5rem 1.3rem;
+}
+
+.margin-border-padding {
+    border-bottom: 1px solid var(--grayish-blue);
+    margin-bottom: 1.75rem;
+    padding-bottom: 1.75rem;
+}
+
+.segunda-secao h2 {
+    color: var(--coral);
+    font-size: 2rem;
+    line-height: 100%;
+    margin-bottom: 2rem;
+}
+
+.segunda-secao h3 {
+    color: var(--white-smoke);
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+.segunda-secao p {
+    color: var(--grayish-blue);
+    font-size: 0.9375rem;
+    line-height: 1.625rem;
+}
+
+.terceira-secao {
+    
+}
+
+.terceira-secao > div {
+
+}
